@@ -43,7 +43,7 @@
 
                 <hr class="w-30">
 
-                <p class="text-center text-muted fs-13 mt-20">Don't have an account? <a href="page-register.html">Sign up</a>
+                <p class="text-center text-muted fs-13 mt-20">Don't have an account? <a href="/register">Sign up</a>
                 </p>
             </div>
 
