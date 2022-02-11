@@ -13,16 +13,11 @@ You can download git’s command-line interface (CLI) or can try GitHub Desktop 
 
 Common commands
  - git init
- - git clone https://github.com/cooperka/emoji-commit-messages.git
+ - git clone 
  - git status
  - git branch <new-branch-name>
  - git add <files>
  - git commit
-
-
-
-
-
 
 
 -  UML at least 3 good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please
@@ -50,42 +45,38 @@ I have integrated SonarQube with laravel and attached the screen's below. For Qu
 
 - Clean Code Development: at least 5 points you can show me with an explanation of why is this is clean code and/or what has
 improved+ >>10 points on your personal cheat sheet
+
+ - 
+Functions.
+Formatting.
+Objects and Data Structures.
+Error handling.
+Unit tests.
+Class.
+
+- Implemented 
+
+
 -  Build Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call
 tests, etc. (it could be also disconnected from the project just to learn a build tool!)
+
+For this project I am using Laravel builtin Artisan [Click Here](https://laravel.com/docs/8.x/artisan#introduction) and 
+Node with webpack for Build. Maven can be integrated with Node but it does not serve any purpose here accept passing the commands to Node also I have tried it but it is generating errors while running jobs on Github Actions.   
+
+We can run the following command on the project root to generate the build "npm run production"
+ 
+
 -  Integrate some nice Unit-Tests in your Code to be integrated into the Build
+
 -  Continuous Delivery: show me your pipeline using e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. E.g. you can also
 use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle
 or something else).
+
 -  Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favorite Key-Shortcuts?!
+
 -  DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in
 another language).
+
 - Functional Programming: prove that you have covered all functional aspects in your code as:
 
-## Details
-
-### Settings/Configurations
-- Install/Activate the theme Oceans Apart
-- Enable ACF Plugin 
-- Import the ACF Fields 
-- Create a page and set Page Template to Oceans Apart Task
-- Add/edit the Oceans Apart Fields at the page bottom (on-page edit screen) 
-- View the page for implemented design
-- That's all
-
-### ACF Local JSON
-ACF folder path: 
-wp-content\themes\oceans-apart\customizations\acf_files
-
-### PHP Code PSR2 Standards
-All customizations related to PHP with PSR2 Standards can be find in the following file: 
-wp-content\themes\oceans-apart\customizations\OceanApartCustomizations.php
-
-### Webpack and Scss
-
-Webpack Path: theme root
-
-Entry File for Webpack: wp-content\themes\oceans-apart\assets\src\index.js
-
-Scss path: wp-content\themes\oceans-apart\assets\scss\app.scss
-
-Compile assets Command: npm run webpack:production
+#
