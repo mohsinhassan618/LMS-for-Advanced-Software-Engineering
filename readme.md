@@ -20,8 +20,7 @@ Common commands
  - git commit
 
 
--  UML at least 3 good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please
-export the pics. I can not install all tools to view them!
+####   UML at least 3 good diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all tools to view them!
 I have Implemented the UML related to the project
 
 - Activity Diagram [Click Here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/Activity%20Daigram.png) 
@@ -29,11 +28,10 @@ I have Implemented the UML related to the project
 - Class Diagram [Click Here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/Class%20UML.png) 
 
 
--  DDD If your domain is too small, invent other domains around and document these domains (as if you have 10 Mio € from EdlichInvestment!) Develop a clear strategic design with mappings/relationships with 5-0 Domains. It would be nice if these domains are
-derived from an Event-Storming (but not mandatory). 
+####   DDD If your domain is too small, invent other domains around and document these domains (as if you have 10 Mio € from EdlichInvestment!) Develop a clear strategic design with mappings/relationships with 5-0 Domains. It would be nice if these domains are derived from an Event-Storming (but not mandatory). 
 
 
-- Metrics at least two. Sonarcube would be great. Other non-trivial metrics are also fine.
+####  Metrics at least two. Sonarcube would be great. Other non-trivial metrics are also fine.
 
 I have integrated SonarQube with laravel and attached the screen's below. For Quality Profiles for PHP I am using PSR2 as coding standard for PHP 
  
@@ -43,8 +41,7 @@ I have integrated SonarQube with laravel and attached the screen's below. For Qu
 - [Click HEre](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/Quality%20Profiles.png)
 
 
-- Clean Code Development: at least 5 points you can show me with an explanation of why is this is clean code and/or what has
-improved+ >>10 points on your personal cheat sheet
+####  Clean Code Development: at least 5 points you can show me with an explanation of why is this is clean code and/or what has improved+ >>10 points on your personal cheat sheet
 
  - 
 Functions.
@@ -54,11 +51,9 @@ Error handling.
 Unit tests.
 Class.
 
-- Implemented 
 
 
--  Build Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call
-tests, etc. (it could be also disconnected from the project just to learn a build tool!)
+####  Build Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could be also disconnected from the project just to learn a build tool!)
 
 For this project I am using Laravel builtin Artisan [Click Here](https://laravel.com/docs/8.x/artisan#introduction) and 
 Node with webpack for Build. Maven can be integrated with Node but it does not serve any purpose here accept passing the commands to Node also I have tried it but it is generating errors while running jobs on Github Actions.   
@@ -67,18 +62,16 @@ We can run the following command on the project root to generate the build "npm 
 Please review the screen shot [click here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/npm%20Build.png)
 The command can be explored more in the following file on scripts section [click here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/package.json) 
 
--  Integrate some nice Unit-Tests in your Code to be integrated into the Build
+####   Integrate some nice Unit-Tests in your Code to be integrated into the Build
 We are using PHP unit library for running tests also redis cache needs to be enabled to successfully run the tests.
 Please view the unit test stats [Click Here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/Unit%20tests.png)
 
 
--  Continuous Delivery: show me your pipeline using e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. E.g. you can also
-use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle
-or something else).
+####   Continuous Delivery: show me your pipeline using e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
 I am using Github Actions and running two jobs one for build and second is for the unit tests. For more details are provided in root/.github/workflows/laravel.yml
 Please review the screen shot [click here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/CI%20CD.png) 
 
--  Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favorite Key-Shortcuts?!
+####   Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favorite Key-Shortcuts?!
 PHP Storm is my favorite IDE and I am using this from past five years 
 
 Features 
@@ -94,9 +87,9 @@ Features
 -  Spelling corrections
 -  You can set the PHP coding Standards inside the IDE  
 
--  DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in
+####   DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in
 another language).
 
-- Functional Programming: prove that you have covered all functional aspects in your code as:
+####  Functional Programming: prove that you have covered all functional aspects in your code as:
 
 #
