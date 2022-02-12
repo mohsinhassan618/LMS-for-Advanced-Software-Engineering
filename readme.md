@@ -69,14 +69,30 @@ The command can be explored more in the following file on scripts section [click
 
 -  Integrate some nice Unit-Tests in your Code to be integrated into the Build
 We are using PHP unit library for running tests also redis cache needs to be enabled to successfully run the tests.
-Please view the unit test stats [Click Here]()
+Please view the unit test stats [Click Here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/Unit%20tests.png)
 
 
 -  Continuous Delivery: show me your pipeline using e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. E.g. you can also
 use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle
 or something else).
+I am using Github Actions and running two jobs one for build and second is for the unit tests. For more details are provided in root/.github/workflows/laravel.yml
+Please review the screen shot [click here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/CI%20CD.png) 
 
 -  Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favorite Key-Shortcuts?!
+PHP Storm is my favorite IDE and I am using this from past five years 
+
+Features 
+
+-  Find in Path Directory level search of string  (ctrl + shift + F)
+-  Find Declaration of any variable, function or class (ctrl+ b) 
+-  Find implementations/usage of any variable, function or class in the whole project (ctrl+ b)
+-  Replace in path (Ctrl + Shit+ R). you can replace a string not just in file but the complete project or directory of your choice  
+-  Version Control integration 
+-  Built in Terminal no need to use the OS CLI software
+-  You can integrate lot of online available plugins and themes
+-  The most accurate auto complete feature as compared to any other IDE
+-  Spelling corrections
+-  You can set the PHP coding Standards inside the IDE  
 
 -  DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in
 another language).
