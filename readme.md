@@ -64,9 +64,13 @@ For this project I am using Laravel builtin Artisan [Click Here](https://laravel
 Node with webpack for Build. Maven can be integrated with Node but it does not serve any purpose here accept passing the commands to Node also I have tried it but it is generating errors while running jobs on Github Actions.   
 
 We can run the following command on the project root to generate the build "npm run production"
- 
+Please review the screen shot [click here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/npm%20Build.png)
+The command can be explored more in the following file on scripts section [click here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/package.json) 
 
 -  Integrate some nice Unit-Tests in your Code to be integrated into the Build
+We are using PHP unit library for running tests also redis cache needs to be enabled to successfully run the tests.
+Please view the unit test stats [Click Here]()
+
 
 -  Continuous Delivery: show me your pipeline using e.g. Jenkins, Travis-CI, Circle-CI, GitHub Action, GitLab CI, etc. E.g. you can also
 use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle
