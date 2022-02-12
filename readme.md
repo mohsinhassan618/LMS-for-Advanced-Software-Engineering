@@ -70,6 +70,7 @@ I am using Github Actions and running two jobs one for build and second is for t
 Please review the screen shot [click here](https://github.com/mohsinhassan618/LMS-for-Advanced-Software-Engineering/blob/main/extra/CI%20CD.png) 
 
 ####  9) Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favorite Key-Shortcuts?!
+
 PHP Storm is my favorite IDE and I am using this from past five years 
 
 Features 
@@ -85,8 +86,7 @@ Features
 -  Spelling corrections
 -  You can set the PHP coding Standards inside the IDE  
 
-####  10) DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in
-another language).
+####  10) DSL Create a small DSL Demo example snippet in your code even if it does not contribute to your project (hence it can also be in another language).
 
 #### 11) Functional Programming: prove that you have covered all functional aspects in your code as:
 
